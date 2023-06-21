@@ -18,28 +18,29 @@ body {
     --dark_blue: hsl(218, 44%, 22%);
 
 
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--light_gray);
     font-family: 'outfit', sans-serif;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 20em;
     padding: 1em;
-    border-radius: 1.5em;
+    border-radius: 1.25em;
     background-color: var(--white);
     text-align: center;
 }
 
 .card_qrcode img{
     width: 100%;
-    border-radius: 1em;
+    border-radius: 0.75em;
     object-fit: contain;
 }
 
@@ -49,9 +50,11 @@ body {
 
 .card p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
 }
 
-.card h3 {
+.card h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark_blue);
     padding-bottom: .75em;
 }
