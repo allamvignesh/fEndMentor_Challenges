@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/allamvignesh/fEndMentor_Challenges/tree/main/results-summary-component-main)
-- Live Site URL: [Add live site URL here](https://allamvignesh.github.io/fEndMentor_Challenges/results-summary-component-main/)
+- Solution URL: [solution URL](https://github.com/allamvignesh/fEndMentor_Challenges/tree/main/results-summary-component-main)
+- Live Site URL: [live site URL](https://allamvignesh.github.io/fEndMentor_Challenges/results-summary-component-main/)
 
 ## My process
 
