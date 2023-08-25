@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+* {
+  margin: 0;
+}
+
+.home {
+  background-image: url("images/desktop/image-header.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+}
+
+.navbar {
+  padding: 20px;
+  font-family: Barlow;
+  display: flex;
+  color: White;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.navbar .links {
+  margin-left: auto;
+  padding: 0px 16px;
+}
+
+.navbar a {
+  color: White;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.navbar .contact {
+  color: hsl(167, 40%, 24%);
+  padding: 12px 20px;
+  font-family: Fraunces;
+  background-color: white;
+  border-radius: 50px
+}
+
+.navbar .contact:hover {
+  background-color: rgba(255, 255, 255, 40%);
+  color: white;
+}
+
+.head {
+  margin-top: 100px;
+  color: white;
+  font-family: Fraunces;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 15px
+}
+
+.arrow {
+  margin-left: 48%;
+  margin-top: 100px
+}
+
+.sec {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec > * {
+  flex: 1 0 50%;
+}
+.sec .tyb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec .con {
+  margin: 0 10% 0 25%;
+}
+.sec img {
+  width: 100%;
+  height: 100%
+}
+.sec .tyb h2 {
+  font-size: 40px;
+  font-family: Fraunces;
+  color: hsl(212, 27%, 19%);
+}
+.sec .tyb p {
+  padding-top: 1.5em;
+  font-size: 18px;
+  font-family: Barlow;
+  color: hsl(232, 10%, 55%);
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+.sec .tyb a {
+  font-size: 18px;
+  font-family: Fraunces;
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
+}
+
+.sec .tyb .learn:hover {
+  height: 6px;
+  border-bottom: 10px solid;
+  border-radius: 3px;
+  border-color: yellow;
+}
+
+.graphic {
+  background-image: url("images/desktop/image-graphic-design.jpg");
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.photography {
+  background-image: url("images/desktop/image-photography.jpg");
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grap {
+  margin: 50% 20% 0 20%;
+}
+
+.grap h3 {
+  font-size: 30px;
+  font-family: Fraunces;
+  color: hsl(167, 40%, 24%);
+}
+.grap p {
+  padding-top: 1.5em;
+  font-size: 18px;
+  font-family: Barlow;
+  color: hsl(167, 40%, 24%);
+  line-height: 1.5em;
+  padding-bottom: 2em;
+}
+
+.clients {
+  text-align: center;
+  padding: 8em;
+  line-height: 1.5;
+}
+
+.clients h2 {
+  font-family: Fraunces;
+  letter-spacing: 0.2em;
+  color: hsl(210, 4%, 67%);
+}
+
+.clients p {
+  font-size: 18px;
+  font-family: Barlow;
+  color: hsl(213, 9%, 39%);
+}
+
+.testimonials {
+  display: flex;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 3em 0;
+}
+
+.emily, .thomas, .jennie {
+  padding: 0 0.5em;
+}
+
+.clients h3 {
+  padding-top: 2em;
+  font-family: Fraunces;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery img {
+  width: 25%;
+}
+
+.foot {
+  font-family: Barlow;
+  text-align: center;
+  padding: 3em;
+  background-color: hsl(168, 50%, 64%);
+  color: hsl(167, 40%, 24%);
+}
+
+.foot svg {
+  padding-bottom: 2em;
+}
+
+.foot .links {
+  padding-bottom: 3em;
+}
+
+.foot a {
+  text-decoration: none;
+  padding: 1.7em;
+  color: hsl(167, 40%, 24%);
+}
+
+.foot img {
+  padding: 0 0.7em;
+}
