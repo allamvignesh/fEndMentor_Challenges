@@ -1,6 +1,6 @@
 let summary = document.querySelector(".summary")
 
-fetch("https://github.com/allamvignesh/fEndMentor_Challenges/raw/main/Challenges/results-summary-component-main/data.json")
+fetch("https://allamvignesh.github.io/fEndMentor_Challenges/Challenges/results-summary-component-main/data.json")
 .then(res => res.json())
 .then(result => {
     for(let i=0; i<result.length; i++){
